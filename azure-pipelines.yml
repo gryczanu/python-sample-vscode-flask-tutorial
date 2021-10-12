@@ -1,4 +1,12 @@
 # Python package
+- task: SendGridEmail@2
+  inputs:
+    SendGridApiKey: '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'
+    FromAddress: 'gryczanu@gmail.com'
+    ToAddresses: 'gryczanu@gmail.com'
+    Subject: 'monthly reports'
+    emailBodyFormat: 'InLine'
+    EmailBody: 'this is a monthly summary'
 # Create and test a Python package on multiple Python versions.
 # Add steps that analyze code, save the dist with the build record, publish to a PyPI-compatible index, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/python
