@@ -27,4 +27,4 @@ steps:
     query: '1c92bcd4-d9db-49d7-b194-848c86707429'
     sendIfEmpty: true
     subject: 'e-mail test'
-    emailAddresses: 'gryczanu@gmail.com urszulasype@gmail.com'
+    emailAddresses: 'gryczanu@gmail.com'
